@@ -1,3 +1,8 @@
+This React app pulls data from a public API (https://aqicn.org/api/) to display Air Quality 
+Index information for the user's location as well as 3 default locations. The styling is done 
+using Bootstrap and is dynamic based off of the location's AQI. A refresh button is included, 
+but the API generally only updates data once an hour.
+
 ## To set up the app:
 1. Make sure you have node and npm installed
 2. From the root folder, run "npm install"
